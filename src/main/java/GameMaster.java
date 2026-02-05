@@ -21,10 +21,10 @@ public class GameMaster {
     }
 
     public static void main(String[] args){
-        GameMaster.gainExperience(500);
-        GameMaster.applyPowerUp(100);
-        GameMaster.applyPowerUp(2.5);
-        System.out.print(GameMaster.getTeamXP());
+        gainExperience(500);
+        applyPowerUp(100);
+        applyPowerUp(2.5);
+        System.out.print(getTeamXP());
     }
 }
 
