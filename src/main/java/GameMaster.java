@@ -21,10 +21,10 @@ public class GameMaster {
     }
 
     public static void main(String[] args){
-        GameMaster quest = new GameMaster();
-        quest.gainExperience(500);
-        quest.applyPowerUp(100);
-        quest.applyPowerUp(2.5);
+        GameMaster.gainExperience(500);
+        GameMaster.applyPowerUp(100);
+        GameMaster.applyPowerUp(2.5);
+        System.out.print(GameMaster.getTeamXP());
     }
 }
 
