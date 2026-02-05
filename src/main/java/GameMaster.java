@@ -25,7 +25,6 @@ public class GameMaster {
         quest.gainExperience(500);
         quest.applyPowerUp(100);
         quest.applyPowerUp(2.5);
-        System.out.print(quest.getTeamXP());
     }
 }
 
